@@ -66,7 +66,7 @@ code,
 .shortcut-key {
 	border-radius: 4px;
 	color: var(--color-foreground);
-	padding: 2px 6px 0 6px;
+	padding: 2px 6px 0;
 	vertical-align: baseline;
 
 	.vscode-dark & {
@@ -93,7 +93,7 @@ h2 {
 	font-size: 2.2rem;
 	font-weight: 200;
 	line-height: normal;
-	margin: 1em 0 0.3em 0;
+	margin: 1em 0 0.3em;
 	white-space: nowrap;
 }
 
@@ -101,7 +101,7 @@ h3 {
 	font-size: 1.8rem;
 	font-weight: 200;
 	line-height: normal;
-	margin: 1em 0 0.3em 0;
+	margin: 1em 0 0.3em;
 	white-space: nowrap;
 }
 
@@ -109,7 +109,7 @@ h4 {
 	font-size: 1rem;
 	font-weight: 200;
 	line-height: normal;
-	margin: 1em 0 0.3em 0;
+	margin: 1em 0 0.3em;
 	white-space: nowrap;
 }
 
@@ -406,7 +406,7 @@ ul {
 	margin-bottom: 90vh;
 
 	.section--settings {
-		margin: 0 0 1em 0;
+		margin: 0 0 1em;
 	}
 }
 
@@ -471,7 +471,7 @@ ul {
 	color: var(--color-foreground--65);
 	font-size: 2rem;
 	font-weight: 100;
-	margin: -0.2em 0 0 0;
+	margin: -0.2em 0 0;
 	white-space: nowrap;
 }
 
@@ -511,7 +511,7 @@ ul {
 .hero__subtitle {
 	color: var(--color-foreground--75);
 	font-size: 1.4rem;
-	margin: 0.25em 0 0 0;
+	margin: 0.25em 0 0;
 }
 
 .hero__title {
@@ -608,7 +608,7 @@ ul {
 
 .image__preview {
 	border-radius: 8px;
-	box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.8), 0px 0px 12px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.8), 0 0 12px 1px rgba(0, 0, 0, 0.5);
 	width: 600px;
 }
 
@@ -814,7 +814,7 @@ section {
 .section__preview-hint {
 	color: var(--color-foreground--75);
 	font-weight: 200;
-	margin: 0.5em 0.5em 0 0.5em;
+	margin: 0.5em 0.5em 0;
 	text-align: center;
 }
 
@@ -835,7 +835,7 @@ section {
 }
 
 .section__title--break {
-	margin: 0.3em 15% 0 15%;
+	margin: 0.3em 15% 0;
 	padding-top: 1em;
 	justify-content: center;
 
@@ -991,7 +991,7 @@ section {
 	display: block;
 	font-weight: 200;
 	font-size: 1.3rem;
-	margin: 0 1em 0.5em 1em;
+	margin: 0 1em 0.5em;
 }
 
 .settings {
@@ -1078,7 +1078,7 @@ section {
 
 .sponsor__tag {
 	font-size: 1.1rem;
-	margin: -1em 0.5em 0 0.5em;
+	margin: -1em 0.5em 0;
 	opacity: 0.5;
 	text-align: center;
 }

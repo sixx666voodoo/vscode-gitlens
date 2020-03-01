@@ -16,5 +16,4 @@
 	"search.exclude": {
 		"**/dist": true
 	},
-	"typescript.tsdk": "node_modules\\typescript\\lib"
 }
